@@ -1,0 +1,191 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box; text-decoration: none; list-style: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blackline{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    z-index: 1;}
+    
+header{
+    margin-top: 50px;
+    width: 100%; height: 100px; 
+}
+.line{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.envato{margin-left: 30px; color: white;}
+.buynow{margin-right: 30px; background-color: rgb(6, 199, 6); 
+       height: 30px; width: 70px;  border-radius: 5px;
+       font-weight: bolder;  color: aliceblue; }
+#freeshipping{
+    height: 25px;
+    background-color: black;
+    color: aliceblue;
+    padding: 0px 20px ;
+}
+
+
+
+.uncode{margin-left: 30px;}
+.nav{ font-weight: 500;}
+.navli,.navicon{ float: left; margin-right: 30px; cursor: pointer;}
+
+
+#intro{width: 100%; 
+    height: 415px;
+    background-image: url("boy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue; 
+    padding: 30px 0 0 30px;
+}
+
+#intro>div>h1{ margin: 30px 0 40px 0;}
+#intro>div>button{ 
+    width: 120px;
+    height: 30px;
+    border:solid antiquewhite  2px;
+    border-radius: 15px;
+    color: antiquewhite;
+    background: none;
+    font-weight: 700;
+}
+
+#filters{
+    padding: 0 15% 0 15%;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+#products{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+#choose{
+    width: 30%;
+    height: 500px;
+    padding-left: 25px;
+    display:flex;
+    flex-direction: column;
+}
+#product{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filterbutton{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(184, 183, 183);
+    font-weight :bolder;
+    cursor: pointer;
+    text-align: left;
+    letter-spacing: 3px;
+    margin-top: 25px;
+ }
+ /* .li{
+     margin-top: 10px;
+ } */
+
+
+#card{
+    border: solid rgb(230, 229, 229) 0.3px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 30px 30px 0 30px;
+    width: 25%;
+    height: 300px;
+    font-size: small;    
+}
+#card:hover{
+    box-shadow: -0.3px -0.3px 2px 0.5px ;
+
+}
+
+.frame{
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.frame>img{
+    width: 100%;
+    height: 100%;
+}
+.frame>i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+#zoom{top:8px;}
+#heart{top: 25px;}
+
+
+.info{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brandname{
+    border-top: solid rgb(206, 202, 202) 0.5px;
+    width: 100%;
+    height: 20%;
+    padding: 10%;
+}
+.brandname>img{
+    width: 100%;
+    height: 100%;
+    filter:brightness(1);
+}
+#end{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    color: antiquewhite;
+    background-color: rgb(24, 23, 23);
+}
+#sign{
+    width: 40%;
+    height: 100%;
+    padding: 5%;
+}
+#sign>div{
+    width: 73%;
+    height: 35px;
+    padding: 5px;
+    border: solid rgb(100, 100, 100) 1px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+#shop,#customers,#contact{
+ width: 20%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ padding: 5% 0 0 4%;
+}
+#color>li{ float:inline-start;margin: 10px;}
+a{color: aliceblue;}
+a:hover{color: rgb(253, 31, 31);}
+
+
